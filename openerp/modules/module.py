@@ -47,7 +47,7 @@ README = ['README.rst', 'README.md', 'README.txt']
 _logger = logging.getLogger(__name__)
 
 # addons path as a list
-ad_paths = []
+ad_paths = ['/home/andres/git/GAD_ERP/addons/odoo-ecuador','/home/andres/git/GAD_ERP/addons/geospatial','/home/andres/git/GAD_ERP/addons/server-tools' ]
 hooked = False
 
 # Modules already loaded
