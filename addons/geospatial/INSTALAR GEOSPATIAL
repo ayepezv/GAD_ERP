@@ -1,0 +1,20 @@
+
+Geospatial support for Odoo
+Geospatial support based on PostGIS add the ability of server to server geojson to do geo CRUD and view definition.
+
+Installation
+To install this module, you need to have PostGIS installed.
+
+On Ubuntu:
+
+sudo apt-get install postgis
+The module also requires two additional python libs:
+
+Shapely
+geojson
+for a complete documentation please refer to the public documenation
+
+
+$ pip install shapely
+pip install geojson
+
